@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  font-family: sans-serif;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 10vh;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column !important;
+  margin: 0;
+  height: 100vh;
+  background-color: #222222;
+  color: white;
+  /* padding: 0 30rem; */
+}
+
+.body input {
+  width: 30vw;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.body ul li {
+  height: 10vh;
+  width: 50vw;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  background-color: #111111;
+  margin: 1rem;
+  text-overflow: ellipsis;
+}
+
+.body ul li span.name {
+  background-color: red;
+  text-overflow: ellipsis;
+  max-width: inherit;
+}
+
+.body ul span.delete {
+  font-size: 0.8rem !important;
+  color: red;
+}
+
+span.delete:hover {
+  cursor: pointer;
+}
